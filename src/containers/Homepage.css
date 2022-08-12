@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+/*RESET STYLES*/
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+button{cursor: pointer; outline: none;}
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+body{
+	background-color: #F2CED5;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+
+#quote{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #212226;
+	box-shadow: 8px 8px 11px 4px rgba(217,150,162,0.82);
+	border:solid 30px #F2E0C9;
+	width: 30vw;
+	height: 55vh;
+	padding: 30px;
+	font-family: 'Signika Negative', sans-serif;
+	color:white;
+}
+	#text{
+		text-align: center;	
+		font-size: 2rem;
+	}
+	#author{
+		text-align: right;
+		padding: 20px 0 0 0;
+		font-size: 1.3rem;
+	}
+
+#buttons{
+	margin:30px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+	#new-quote{
+		background: transparent;
+		border:none;
+	}
